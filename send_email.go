@@ -1,4 +1,4 @@
-package main
+package sendEmail
 
 import (
 	"fmt"
@@ -36,13 +36,13 @@ func SendEmail(sendMsg, subject, nickName string, send2Email []string) (err erro
 	return
 }
 
-func main() {
-	// Set up authentication information.
-	sendMsg := "SendEmail"
-	nickName := "testok"
-	subject := "testok mail"
-	send2Email := []string{"***@***.com", "***@***.com"}
-	err := SendEmail(sendMsg, subject, nickName, send2Email)
-	fmt.Println(err)
-}
+// func main() {
+// 	// Set up authentication information.
+// 	sendMsg := "SendEmail"
+// 	nickName := "testok"
+// 	subject := "testok mail"
+// 	send2Email := []string{"***@***.com", "***@***.com"}
+// 	err := SendEmail(sendMsg, subject, nickName, send2Email)
+// 	fmt.Println(err)
+// }
 
