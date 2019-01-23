@@ -6,5 +6,5 @@
 	Host string		//邮箱服务器
 	Port int		//邮箱服务器端口
 	ContentType string  	//"Content-Type: text/plain; charset=UTF-8"
-} 
+	} 
 
